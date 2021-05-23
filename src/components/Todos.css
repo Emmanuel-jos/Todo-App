@@ -1,0 +1,128 @@
+.outer{
+    width: 100%;
+    min-height: 300px;
+    max-height: fit-content;
+    text-align: center;
+    }
+
+.inner{
+    display: inline-block;
+    margin: 0 auto;
+    min-width: 350px;
+    max-width:fit-content;
+    min-height: 200px;
+    padding: 3px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: rgb(183, 241, 207);
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/b/b1/Little_background.jpg)
+}
+
+.title{
+    font-style: italic;
+    font-size: 2.7em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(56, 29, 29);
+}
+.body {
+    display: grid;
+    grid-row: auto;
+    
+  }
+::placeholder{
+    color: thistle;
+    opacity: 1;
+}
+.body input {
+
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 3px;
+    font-size: medium;
+    font-weight: 700;
+    font-style:italic;
+  }
+
+i {
+    cursor: pointer;
+    color: rgb(56, 29, 29);
+    font-size:large;
+    font-weight: 900;
+    margin-right: 5px;
+  }
+.todos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+.todos .todo {
+    margin-top: .1em;
+    margin-bottom: 0.4em;
+    width: 19em;
+    height: 1.6em;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    padding: 5px;
+  }
+.todos .todo .left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+.todos .todo .left p {
+    margin-left: 3px;
+    font-size: medium;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(70, 45, 45);
+  }
+  #container {
+    margin: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;               /* establish flex container */            /* default value; can be omitted *//* switched from default (flex-start, see below) */
+  }
+  .innerleft
+  {
+      float:left;
+
+      width: 300px;
+      border: solid;
+      border-width: 4px;
+      border-radius: 30px;
+      text-align: center;
+      border-color:rgb(178, 243, 210);
+      
+  }
+  .innermiddle
+  {
+      margin: 0 auto;
+      
+      width: 300px;
+      border:  solid;
+      border-width: 4px;
+      border-radius: 30px;
+      border-color:rgb(174, 240, 207);
+  }
+  .innerright
+  {
+      float:right;
+      
+      width: 300px;
+      border: solid;
+      border-width: 4px;
+      border-radius: 30px;
+      border-color:rgb(174, 243, 208);
+  }
+  .outsideh1{
+      color: rgb(145, 252, 190);
+      font-style: italic;
+      font-family:cursive;
+      
+  }
